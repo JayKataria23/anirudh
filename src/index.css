@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/bebasneue/v10/JTUSjIg69CK48gW7PXoo9Wlhyw.woff2) format('woff2');
+}
+
+.shadow-neon {
+  text-shadow: 
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #ff0000,
+    0 0 82px #ff0000,
+    0 0 92px #ff0000,
+    0 0 102px #ff0000,
+    0 0 151px #ff0000;
+}
+
+@keyframes flame {
+  0% { transform: translateY(-1px); }
+  50% { transform: translateY(1px); }
+  100% { transform: translateY(-1px); }
+}
+
+.animate-flame {
+  animation: flame 3s ease-in-out infinite;
+}
