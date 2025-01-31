@@ -80,7 +80,7 @@ function Game() {
             }}
           >
             <img
-              src="Ani.jpg"
+              src="/Ani.jpg"
               alt="Anirudh"
               className="w-full h-full object-cover rounded-full border-2 border-yellow-400 shadow-lg"
             />
